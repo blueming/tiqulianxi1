@@ -1,3 +1,3 @@
-class Group <
+class Group < ApplicationRecord
   validates :title, presence: true
 end
